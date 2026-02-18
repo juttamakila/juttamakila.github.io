@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <!-- Oma CSS -->
+    <link rel="stylesheet" href="style.css">
+
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
@@ -9,7 +12,7 @@
 </head>
 <body>
        <!-- ================= NAVIGAATIO (Responsiivinen + Hampurilaisvalikko) ================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg my-header">
         <div class="container">
             <a class="navbar-brand" href="#">OmaSivu</a>
 
@@ -32,8 +35,37 @@
             </div>
         </div>
     </nav>
-    <footer class="bg-dark text-white text-center py-4 mt-5">
-    <div class="container">
+
+    <div id="kortit" class="container mt-5">
+        <h2>Kortit</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/kuva.4.bootstrap.jpg" class="card-img-top" alt="Kortti 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Kortti 1</h5>
+                        <p class="card-text">Lintunen oksalla</p>
+                        <span class="badge bg-success">Uusi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/kuva.5.bootstrap.jpg" class="card-img-top" alt="Kortti 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Kortti 2</h5>
+                        <p class="card-text">Jaguaari päiväunilla</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="my-footer text-center py-4">
+    <div class="container fluid">
         <p>© 2026 Jutta Mäkilä</p>
         <p>
             <a href="index.html" class="text-white me-3">Etusivu</a>

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <!-- Oma CSS -->
+    <link rel="stylesheet" href="style.css">
+
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
@@ -9,7 +12,7 @@
 </head>
 <body>
        <!-- ================= NAVIGAATIO (Responsiivinen + Hampurilaisvalikko) ================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg my-header">
         <div class="container">
             <a class="navbar-brand" href="#">OmaSivu</a>
 
@@ -33,18 +36,27 @@
         </div>
     </nav>
 
+
     <div class="container mt-5">
 <h2>Kuvakaruselli</h2>
+<p>Eläinkuvia kuvakarusellissa</p>
+<hr>
 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img src=" class="d-block w-100" alt="Kuva 1">
+<img src="images/kuva.1.bootstarp.jpg" class="d-block w-50" alt="Harmaa kissanpentu">
 </div>
 <div class="carousel-item">
-<img src="images/kuva2.jpg" class="d-block w-100" alt="Kuva 2">
+<img src="images/kuva.2.bootstrap.jpg" class="d-block w-50" alt="Vilkuttava jääkarhu">
 </div>
 <div class="carousel-item">
-<img src="images/kuva3.jpg" class="d-block w-100" alt="Kuva 3">
+<img src="images/kuva.3.bootstrap.jpg" class="d-block w-50" alt="Bambua syövä panda">
+</div>
+<div class="carousel-item">
+<img src="images/kuva.4.bootstrap.jpg" class="d-block w-50" alt="Lintu oksalla">
+</div>
+<div class="carousel-item">
+<img src="images/kuva.5.bootstrap.jpg" class="d-block w-50" alt="Jaguaari oksan päällä">
 </div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -56,8 +68,9 @@
 </div>
 </div>
 
-    <footer class="bg-dark text-white text-center py-4 mt-5">
-    <div class="container">
+
+    <footer class="my-footer text-center py-4">
+    <div class="container fluid">
         <p>© 2026 Jutta Mäkilä</p>
         <p>
             <a href="index.html" class="text-white me-3">Etusivu</a>

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <!-- Oma CSS -->
+    <link rel="stylesheet" href="style.css">
+
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
@@ -9,7 +12,7 @@
 </head>
 <body>
        <!-- ================= NAVIGAATIO (Responsiivinen + Hampurilaisvalikko) ================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg my-header">
         <div class="container">
             <a class="navbar-brand" href="#">OmaSivu</a>
 
@@ -32,8 +35,56 @@
             </div>
         </div>
     </nav>
-    <footer class="bg-dark text-white text-center py-4 mt-5">
-    <div class="container">
+
+    <div class="container mt-5">
+    <h3>Esimerkki Bootstrap-taulukosta</h3>
+    <p>Alla oleva taulukko näyttää rivien värityksen ja responsiivisen rakenteen.</p>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Tuote</th>
+                    <th>Määrä</th>
+                    <th>Hinta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th scope="row">1</th>
+                    <td>Omena</td>
+                    <td>10</td>
+                    <td>5 €</td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="row">2</th>
+                    <td>Banaani</td>
+                    <td>15</td>
+                    <td>7 €</td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">3</th>
+                    <td>Appelsiini</td>
+                    <td>8</td>
+                    <td>6 €</td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">4</th>
+                    <td>Kiivi</td>
+                    <td>12</td>
+                    <td>9 €</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Lisää tietoa ja eri väriluokkia: <a href="https://getbootstrap.com/docs/5.3/content/tables/" target="_blank">Bootstrap Taulukot</a></p>
+</div>
+
+
+    <footer class="my-footer text-center py-4">
+    <div class="container fluid">
         <p>© 2026 Jutta Mäkilä</p>
         <p>
             <a href="index.html" class="text-white me-3">Etusivu</a>

@@ -1,0 +1,38 @@
+/* Header pinkiksi */
+.my-header {
+    background-color: #ff69b4 !important; /* pinkki */
+    color: white !important;
+    padding: 20px 0;
+} 
+.my-header a {
+    color: white !important;              /* linkit valkoisiksi */
+    text-decoration: none;
+}
+
+.my-header a:hover {
+    color: #ffe4e1 !important;            /* hover-vaaleanpunainen */
+}
+
+/* Footer pinkiksi */
+.my-footer {
+    background-color: #ff69b4 !important;
+    color: white !important;
+}
+
+/* Navbarin ja footerin linkkien hover */
+.my-header a:hover, .my-footer a:hover {
+    color: #ffe4e1 !important;
+}
+
+/* Sateenkaari ruudukko */
+.rainbow-col-1 { background-color: #FF0000; color: white; text-align: center; padding: 20px; }
+.rainbow-col-2 { background-color: #FF7F00; color: white; text-align: center; padding: 20px; }
+.rainbow-col-3 { background-color: #FFFF00; color: black; text-align: center; padding: 20px; }
+.rainbow-col-4 { background-color: #00FF00; color: white; text-align: center; padding: 20px; }
+.rainbow-col-5 { background-color: #0000FF; color: white; text-align: center; padding: 20px; }
+.rainbow-col-6 { background-color: #4B0082; color: white; text-align: center; padding: 20px; }
+.rainbow-col-7 { background-color: #8B00FF; color: white; text-align: center; padding: 20px; }
+
+/* Esimerkki muille väriruudukko-sarakkeille */
+.col-example-1 { background-color: #f28b82; color: white; text-align: center; padding: 20px; }
+.col-example-2 { background-color: #fbbc04; color: white; text-align: center; padding: 20px; }
